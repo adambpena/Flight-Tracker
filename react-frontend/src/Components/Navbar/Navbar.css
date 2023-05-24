@@ -1,0 +1,104 @@
+.navbar {
+    padding: 20px 10px;
+    background-color: #1d2483;
+    text-align: center;
+    border-bottom: 2px solid gold;
+}
+
+.adminNavbar {
+  padding: 20px 10px;
+  background-color: black;
+  text-align: center;
+  border-bottom: 2px solid lime;
+}
+
+a {
+    margin: auto 30px;
+    color: rgb(49, 37, 9);
+    background-color: rgb(224, 245, 245);
+    border-radius: 10px;
+    padding: 10px 30px;
+    text-decoration: none;
+}
+
+a:active {
+  background-color: goldenrod;
+}
+
+.adminNavbar > a {
+  margin: auto 30px;
+  color: lime;
+  background-color: black;
+  border: 1px solid gray;
+  font-family: monospace;
+  font-size: 17px;
+  border-radius: 10px;
+  padding: 10px 30px;
+  text-decoration: none;
+}
+
+.adminNavbar > a:active {
+  color: black;
+  background-color: lime;
+}
+
+
+.hvr-underline-from-left {
+    display: inline-block;
+    vertical-align: middle;
+    -webkit-transform: perspective(1px) translateZ(0);
+    transform: perspective(1px) translateZ(0);
+    box-shadow: 0 0 1px rgba(0, 0, 0, 0);
+    position: relative;
+    overflow: hidden;
+  }
+  .hvr-underline-from-left:before {
+    content: "";
+    position: absolute;
+    z-index: -1;
+    left: 0;
+    right: 100%;
+    bottom: 0;
+    background: goldenrod; 
+    /*#2098D1*/
+    height: 4px;
+    -webkit-transition-property: right;
+    transition-property: right;
+    -webkit-transition-duration: 0.3s;
+    transition-duration: 0.3s;
+    -webkit-transition-timing-function: ease-out;
+    transition-timing-function: ease-out;
+  }
+  .hvr-underline-from-left:hover:before, .hvr-underline-from-left:focus:before, .hvr-underline-from-left:active:before {
+    right: 0;
+  }
+
+.admin-hvr-underline-from-left {
+    display: inline-block;
+    vertical-align: middle;
+    -webkit-transform: perspective(1px) translateZ(0);
+    transform: perspective(1px) translateZ(0);
+    box-shadow: 0 0 1px rgba(0, 0, 0, 0);
+    position: relative;
+    overflow: hidden;
+  }
+  .admin-hvr-underline-from-left:before {
+    content: "";
+    position: absolute;
+    z-index: -1;
+    left: 0;
+    right: 100%;
+    bottom: 0;
+    background: lime; 
+    /*#2098D1*/
+    height: 4px;
+    -webkit-transition-property: right;
+    transition-property: right;
+    -webkit-transition-duration: 0.3s;
+    transition-duration: 0.3s;
+    -webkit-transition-timing-function: ease-out;
+    transition-timing-function: ease-out;
+  }
+  .admin-hvr-underline-from-left:hover:before, .admin-hvr-underline-from-left:focus:before, .admin-hvr-underline-from-left:active:before {
+    right: 0;
+  }

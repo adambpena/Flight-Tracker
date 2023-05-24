@@ -1,0 +1,77 @@
+.footbar{
+    display: grid;
+    grid-template-columns: 10% 10% 65% 15%;
+    grid-template-areas: ".fsf .paperPlane .empty .greet";
+    background-color: #1d2483;
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    border-top: 2px solid gold;
+}
+
+.adminFootbar{
+    display: grid;
+    grid-template-columns: 10% 10% 65% 15%;
+    grid-template-areas: ".fsf .paperPlane .empty .greet";
+    background-color: black;
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    border-top: 2px solid lime;
+    color: lime;
+}
+
+.fsf{
+    margin-left: 20px;
+    font-family: monospace;
+    color: gold;
+    text-align: center;
+    font-style: italic;
+    font-size: 17px;
+    margin-top: 21px;
+}
+
+.adminFsf{
+    margin-left: 20px;
+    font-family: monospace;
+    color: lime;
+    text-align: center;
+    font-style: italic;
+    font-size: 17px;
+    margin-top: 21px;
+}
+
+.branding{
+    margin-left: 20px;
+    margin-top: 0px;
+    margin-bottom: 0px;
+}
+
+.greet{
+    margin-top: 10px;
+    color: white;
+}
+
+.greet > p{
+    margin-left: 20px;
+    font-style: oblique;
+    font-size: 20px;
+}
+
+.paperPlane{
+    width: 40px;
+    height: auto;
+    margin-top: 20px;
+}
+
+.admin{
+    font-family: monospace;
+    color: lime;
+}
+
+.spaceInvader{
+    width: 60px;
+    height: auto;
+    margin-top: 10px;
+    padding: 0;
+}
