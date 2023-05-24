@@ -31,7 +31,7 @@ Completed in 2022 within a week as a final project for a bootcamp-esque pre-empl
 ![Admin view of app with black and green terminal esque coloring on navbar and footer](https://raw.githubusercontent.com/adambpena/Flight-Tracker/main/FullStackFlightsImages/adminLogin.PNG)
 
 ## User management screen (admin specific)
-![Screen with table of registered users to view and delete](https://raw.githubusercontent.com/adambpena/Flight-Tracker/main/FullStackFlightsImages/failedRegistration.PNG)
+![Screen with table of registered users to view and delete](![Uploading image.png…](https://raw.githubusercontent.com/adambpena/Flight-Tracker/main/FullStackFlightsImages/userManage.PNG)
 
 ## Out of Bounds screen (Unrecognized path within host)
 ![gif of a skeleton with prompt informing user they are out of bounds](https://raw.githubusercontent.com/adambpena/Flight-Tracker/main/FullStackFlightsImages/oob.PNG)
