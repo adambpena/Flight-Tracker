@@ -1,7 +1,9 @@
 # Full Stack Flights
-A full-stack (React(HTML, CSS, JS)/Spring(Java)/MySQL), proof of concept app for registering flights
+## A full-stack (React(HTML, CSS, JS)/Spring(Java)/MySQL), proof of concept app for registering flights
 
-Completed in 2022 within a week as a final project for a bootcamp-esque pre-employment training program. Intended for desktop. Recommended for local testing by opening SpringBackend in Spring Tool Suite then following SQLInfo to create needed database and tables. Once backend is deployed on local port and db is accessible, react-frontend can be deployed via npm start on port 3000. Uses root and uncomplex password for db access (not intended to be secure, just a simple proof of concept app). Contains the following features:
+Completed in 2022 within a week as a final project for a bootcamp-esque pre-employment training program. Intended for desktop. Recommended for local testing by opening SpringBackend in Spring Tool Suite then following SQLInfo to create needed database and tables. Once backend is deployed on local port and db is accessible, react-frontend can be deployed via npm start on port 3000. Uses root and uncomplex password for db access (not intended to be secure, just a simple proof of concept app). 
+
+## Contains the following features:
 
 - Searchable flight travel API via Amadeus (Search may take up to a 10-15 seconds, preloaded with potential search)
 - Table of results displated on internal scroll
@@ -17,3 +19,19 @@ Completed in 2022 within a week as a final project for a bootcamp-esque pre-empl
 - Font awesome icons
 - Handdrawn buttons!
 
+(A few more images than shown below of the app in use can be found in the FullStackFlightsImages folder)
+
+## Login screen
+![login screen for app](https://raw.githubusercontent.com/adambpena/Flight-Tracker/main/FullStackFlightsImages/login.PNG)
+
+## Flight search results displayed in table
+![Flight search results in table with the option to add flights](https://raw.githubusercontent.com/adambpena/Flight-Tracker/main/FullStackFlightsImages/flightSearch.PNG)
+
+## Admin Login w/ Alternate Theme
+![Admin view of app with black and green terminal esque coloring on navbar and footer](https://raw.githubusercontent.com/adambpena/Flight-Tracker/main/FullStackFlightsImages/adminLogin.PNG)
+
+## User management screen (admin specific)
+![Screen with table of registered users to view and delete](https://raw.githubusercontent.com/adambpena/Flight-Tracker/main/FullStackFlightsImages/failedRegistration.PNG)
+
+## Out of Bounds screen (Unrecognized path within host)
+![gif of a skeleton with prompt informing user they are out of bounds](https://raw.githubusercontent.com/adambpena/Flight-Tracker/main/FullStackFlightsImages/oob.PNG)
